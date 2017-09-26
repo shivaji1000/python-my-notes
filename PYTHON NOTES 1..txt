@@ -1,0 +1,86 @@
+
+PYTHON (2.7)
+
+
+PYTHON PROGRAMS ARE INTERPRETED.
+
+DIFFERNCE BETWEEN INTERPRETED AND COMPILER ???(IMP)
+
+An interpreter translates high-level instructions into an intermediate form, which it then executes.
+
+
+In contrast, a compiler translates high-level instructions directly into machine language.
+
+
+PYTHON PROGRAMS SAVE IN PY PROGRAM.
+
+PROGRAM NO.1
+print ("hello world")
+=>hello world
+
+VARIABLES....
+
+variable are not declared in python like in c.
+
+in C......... int a ;
+in PYTHON..... a=4
+
+
+PROGRAM NO.2
+a=5
+print a
+
+EXPRESSION...
+
+a=2
+b=3
+c=a+b
+print (c)
+output:- 5.
+
+
+.....................................IF,ELSE,ELIF.............................
+
+a=9
+b=3
+if(b%a)==0:
+   print("it is even no")
+
+=>it is even no.
+
+a=5
+b=9
+if(b>a):
+   print("b is greater than a")
+elif(a>b):
+   print("a is greater than b")
+else:
+   print("both a and b are equal")
+
+=>b is greater than a
+check for the cases......
+................................................................................
+
+def check(a,b):
+      if(a%b)==0:
+           print("a is divisble")
+      else:
+           print("b is divisble")
+check(4,2)
+
+question 1:-find answer???
+
+..................................................................................
+PROGRAM NO.3
+x=10
+print(typr(x))
+=int
+
+PROGRAM NO.4
+x=1000000000001
+print(type(x))
+=>long
+
+
+.......................................................................
+
